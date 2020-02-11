@@ -13,16 +13,16 @@ I'd like to be able to list all bookmarks
 
 Domain Modelling 
 
-Client                         Controller                            Model                             View  
+     Client                         Controller                            Model                             View  
 
-Client sends a get request>>>>   App.    >>controller sends method 
+     Client sends a get request>>>>   App.    >>controller sends method 
                                             .all to the model >>>>. Bookmarks
                                             
-                                 App. <<Model responds with all [bookmarks]<<
+                                      App. <<Model responds with all [bookmarks]<<
                                  
-                                 App. >>>>> Controller sends [bookmarks] to view >>>>>>>>>>>>>>>>>>.erb bookmarks
+                                      App. >>>>> Controller sends [bookmarks] to view >>>>>>>>>>>>>>>>>>.erb bookmarks
                                  
-                                 App. <<<<<<<<<<<<<<<<<<<<<<<<<view returns html to the controller<<<<<<<
+                                      App. <<<<<<<<<<<<<<<<<<<<<<<<<view returns html to the controller<<<<<<<
                                  
-                                 App. 
-<<<Controller returns HTML to the client                             
+                                      App. 
+     <<<Controller returns HTML to the client                             
