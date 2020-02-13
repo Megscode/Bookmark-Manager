@@ -1,3 +1,5 @@
+ENV['ENVIRONMENT'] = 'test'
+
 # Require all the testing gems
 require 'capybara'
 require 'capybara/rspec'
